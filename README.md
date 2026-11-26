@@ -4,6 +4,8 @@ Review pending WordPress comments with OpenAI or OpenRouter. Keep recommendation
 
 **WordPress 6.3+** · **PHP 7.4+** · **MIT**
 
+![Riot Comment Moderator dashboard with a completed example batch, Recommendations only mode, and provider settings](screenshots/moderation-dashboard.png)
+
 ## Install
 
 1. Download `riot-comment-moderator.zip` from the [latest release](https://github.com/riotrequest/riot-comment-moderator/releases/latest).
@@ -11,6 +13,12 @@ Review pending WordPress comments with OpenAI or OpenRouter. Keep recommendation
 3. Open **Comments → Riot Moderator**, select a provider, and configure its key. Use **Send test comment** to check the connection before enabling processing.
 
 Provider keys are set through the WordPress dashboard over HTTPS with encrypted storage configured, or supplied through private server configuration. Setup, background processing, and data handling are covered in [readme.txt](readme.txt).
+
+## Review recommendations
+
+Open **Comments → Pending** to see each recommendation and its reason in the **Riot review** column.
+
+![Sample pending comments with approval, editor review, spam, and trash recommendations in the Riot review column](screenshots/review-queue.png)
 
 ## Update from WordPress
 
